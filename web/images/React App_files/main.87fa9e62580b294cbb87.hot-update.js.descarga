@@ -1,0 +1,267 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/balance.js":
+/*!***********************************!*\
+  !*** ./src/components/balance.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./spinner */ "./src/components/spinner.js");
+/* harmony import */ var _store_interactions__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../store/interactions */ "./src/store/interactions.js");
+/* harmony import */ var _store_selectors__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../store/selectors */ "./src/store/selectors.js");
+
+
+
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "/mnt/c/pr0/blockchain-developer-bootcamp/src/components/balance.js";
+
+
+
+
+
+
+
+
+var showForm = function showForm(props) {
+  var etherBalance = props.etherBalance,
+      exchangeEtherBalance = props.exchangeEtherBalance,
+      tokenBalance = props.tokenBalance,
+      exchangeTokenBalance = props.exchangeTokenBalance;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Tabs"], {
+    defaultActiveKey: "deposit",
+    className: "bg-dark text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 3
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Tab"], {
+    eventKey: "deposit",
+    title: "Deposit",
+    className: "bg-dark",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("table", {
+    className: "table table-dark table-sm small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 8
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("thead", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 12
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tr", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 14
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 16
+    }
+  }, "Token"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 16
+    }
+  }, "Wallet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 16
+    }
+  }, "Exchange"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tbody", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 12
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tr", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 14
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 16
+    }
+  }, "ETH"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 16
+    }
+  }, etherBalance), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 16
+    }
+  }, exchangeEtherBalance))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Tab"], {
+    eventKey: "withdraw",
+    title: "Withdraw",
+    className: "bg-dark",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 4
+    }
+  }));
+};
+
+var Balance = /*#__PURE__*/function (_Component) {
+  Object(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Balance, _Component);
+
+  var _super = Object(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(Balance);
+
+  function Balance() {
+    Object(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Balance);
+
+    return _super.apply(this, arguments);
+  }
+
+  Object(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Balance, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      this.loadBlockchainData();
+    }
+  }, {
+    key: "loadBlockchainData",
+    value: function () {
+      var _loadBlockchainData = Object(_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/_mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        var _this$props, dispatch, web3, exchange, token, account;
+
+        return _mnt_c_pr0_blockchain_developer_bootcamp_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _this$props = this.props, dispatch = _this$props.dispatch, web3 = _this$props.web3, exchange = _this$props.exchange, token = _this$props.token, account = _this$props.account;
+                _context.next = 3;
+                return Object(_store_interactions__WEBPACK_IMPORTED_MODULE_10__["loadBalances"])(dispatch, web3, exchange, token, account);
+
+              case 3:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function loadBlockchainData() {
+        return _loadBlockchainData.apply(this, arguments);
+      }
+
+      return loadBlockchainData;
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "card bg-dark text-white",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 4
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "card-header",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 5
+        }
+      }, "Balance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "card-body",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 5
+        }
+      }, showForm(this.props)));
+    }
+  }]);
+
+  return Balance;
+}(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
+
+function mapStateToProps(state) {
+  var balancesLoading = Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["balancesLoadingSelector"])(state); // console.log({
+  // 	account: accountSelector(state),
+  // 	exchange: exchangeSelector(state),
+  // 	token: tokenSelector(state),
+  // 	web3: web3Selector(state),
+  // 	etherBalance: etherBalanceSelector(state),
+  // 	tokenBalance: tokenBalanceSelector(state),
+  // 	exchangeEtherBalance: exchangeEtherBalanceSelector(state),
+  // 	exchangeTokenBalance: exchangeTokenBalanceSelector(state)
+  // })
+
+  return {
+    account: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["accountSelector"])(state),
+    exchange: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["exchangeSelector"])(state),
+    token: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["tokenSelector"])(state),
+    web3: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["web3Selector"])(state),
+    etherBalance: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["etherBalanceSelector"])(state),
+    tokenBalance: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["tokenBalanceSelector"])(state),
+    exchangeEtherBalance: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["exchangeEtherBalanceSelector"])(state),
+    exchangeTokenBalance: Object(_store_selectors__WEBPACK_IMPORTED_MODULE_11__["exchangeTokenBalanceSelector"])(state),
+    balancesLoading: balancesLoading,
+    showForm: !balancesLoading
+  };
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_7__["connect"])(mapStateToProps)(Balance));
+
+/***/ })
+
+})
+//# sourceMappingURL=main.87fa9e62580b294cbb87.hot-update.js.map
